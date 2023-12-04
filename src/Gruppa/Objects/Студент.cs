@@ -28,6 +28,8 @@ namespace IIS.Gruppa
     // *** End programmer edit section *** (Студент CustomAttributes)
     [AutoAltered()]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
+    [View("ГруппаВСтуденте", new string[] {
+            "Группа.Наименование"})]
     [View("СтудентE", new string[] {
             "ФИО as \'ФИО\'",
             "Группа as \'Группа\'",
@@ -119,6 +121,17 @@ namespace IIS.Gruppa
         /// </summary>
         public class Views
         {
+            
+            /// <summary>
+            /// "ГруппаВСтуденте" view.
+            /// </summary>
+            public static ICSSoft.STORMNET.View ГруппаВСтуденте
+            {
+                get
+                {
+                    return ICSSoft.STORMNET.Information.GetView("ГруппаВСтуденте", typeof(IIS.Gruppa.Студент));
+                }
+            }
             
             /// <summary>
             /// "СтудентE" view.

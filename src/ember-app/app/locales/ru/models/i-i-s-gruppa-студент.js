@@ -1,5 +1,13 @@
 export default {
   projections: {
+    ГруппаВСтуденте: {
+      группа: {
+        __caption__: '',
+        наименование: {
+          __caption__: ''
+        }
+      }
+    },
     СтудентE: {
       фИО: {
         __caption__: 'ФИО'

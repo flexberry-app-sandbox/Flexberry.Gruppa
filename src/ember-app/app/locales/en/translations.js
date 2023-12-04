@@ -3,7 +3,9 @@ import EmberFlexberryTranslations from 'ember-flexberry/locales/en/translations'
 
 import IISGruppaГруппаLForm from './forms/i-i-s-gruppa-группа-l';
 import IISGruppaСтудентLForm from './forms/i-i-s-gruppa-студент-l';
+import IISGruppaформаРедForm from './forms/i-i-s-gruppa-форма-ред';
 import IISGruppaГруппаEForm from './forms/i-i-s-gruppa-группа-e';
+import IISGruppaГруппаВФормеForm from './forms/i-i-s-gruppa-группа-в-форме';
 import IISGruppaСтудентEForm from './forms/i-i-s-gruppa-студент-e';
 import IISGruppaФормаForm from './forms/i-i-s-gruppa-форма';
 import IISGruppaГруппаModel from './models/i-i-s-gruppa-группа';
@@ -106,7 +108,9 @@ $.extend(true, translations, {
     },
     'i-i-s-gruppa-группа-l': IISGruppaГруппаLForm,
     'i-i-s-gruppa-студент-l': IISGruppaСтудентLForm,
+    'i-i-s-gruppa-форма-ред': IISGruppaформаРедForm,
     'i-i-s-gruppa-группа-e': IISGruppaГруппаEForm,
+    'i-i-s-gruppa-группа-в-форме': IISGruppaГруппаВФормеForm,
     'i-i-s-gruppa-студент-e': IISGruppaСтудентEForm,
     'i-i-s-gruppa-форма': IISGruppaФормаForm
   },

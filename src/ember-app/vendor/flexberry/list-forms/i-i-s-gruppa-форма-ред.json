@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-gruppa-форма",
+  "editForm": "i-i-s-gruppa-форма",
+  "external": false,
+  "caption": "",
+  "name": "IISGruppaформаРед",
+  "className": "формаРед",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-gruppa-группа",
+      "modelProjection": "ГруппаL"
+    }
+  ]
+}

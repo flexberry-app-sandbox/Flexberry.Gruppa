@@ -28,6 +28,35 @@
   "hasMany": [],
   "projections": [
     {
+      "name": "ГруппаВСтуденте",
+      "modelName": "i-i-s-gruppa-студент",
+      "attrs": [],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Группа",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "наименование",
+              "caption": "",
+              "hidden": false,
+              "index": 0
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "",
+          "name": "группа",
+          "relatedTo": "i-i-s-gruppa-группа",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    },
+    {
       "name": "СтудентE",
       "modelName": "i-i-s-gruppa-студент",
       "attrs": [

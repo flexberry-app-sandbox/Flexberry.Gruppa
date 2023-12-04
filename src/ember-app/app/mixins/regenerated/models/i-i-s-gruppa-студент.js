@@ -26,6 +26,12 @@ export let ValidationRules = {
 };
 
 export let defineProjections = function (modelClass) {
+  modelClass.defineProjection('ГруппаВСтуденте', 'i-i-s-gruppa-студент', {
+    группа: belongsTo('i-i-s-gruppa-группа', '', {
+      наименование: attr('', { index: 0 })
+    }, { index: -1, hidden: true })
+  });
+
   modelClass.defineProjection('СтудентE', 'i-i-s-gruppa-студент', {
     фИО: attr('ФИО', { index: 0 }),
     группа: belongsTo('i-i-s-gruppa-группа', 'Группа', {

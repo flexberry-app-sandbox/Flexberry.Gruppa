@@ -7,8 +7,8 @@ const Router = EmberRouter.extend({
 
 Router.map(function () {
   this.route('i-i-s-gruppa-группа-l');
-  this.route('i-i-s-gruppa-группа-e',
-  { path: 'i-i-s-gruppa-группа-e/:id' });
+  this.route('i-i-s-gruppa-форма',
+  { path: 'i-i-s-gruppa-форма/:id' });
   this.route('i-i-s-gruppa-группа-e.new',
   { path: 'i-i-s-gruppa-группа-e/new' });
   this.route('i-i-s-gruppa-студент-l');
@@ -16,6 +16,11 @@ Router.map(function () {
   { path: 'i-i-s-gruppa-студент-e/:id' });
   this.route('i-i-s-gruppa-студент-e.new',
   { path: 'i-i-s-gruppa-студент-e/new' });
+  this.route('i-i-s-gruppa-форма-ред');
+  this.route('i-i-s-gruppa-форма',
+  { path: 'i-i-s-gruppa-форма/:id' });
+  this.route('i-i-s-gruppa-форма.new',
+  { path: 'i-i-s-gruppa-форма/new' });
 });
 
 export default Router;

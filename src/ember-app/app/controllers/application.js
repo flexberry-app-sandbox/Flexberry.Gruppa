@@ -28,13 +28,13 @@ export default Controller.extend({
             link: 'i-i-s-gruppa-группа-l',
             caption: i18n.t('forms.application.sitemap.gruppa.i-i-s-gruppa-группа-l.caption'),
             title: i18n.t('forms.application.sitemap.gruppa.i-i-s-gruppa-группа-l.title'),
-            icon: 'calendar',
+            icon: 'phone',
             children: null
           }, {
             link: 'i-i-s-gruppa-студент-l',
             caption: i18n.t('forms.application.sitemap.gruppa.i-i-s-gruppa-студент-l.caption'),
             title: i18n.t('forms.application.sitemap.gruppa.i-i-s-gruppa-студент-l.title'),
-            icon: 'list',
+            icon: 'archive',
             children: null
           }]
         }
