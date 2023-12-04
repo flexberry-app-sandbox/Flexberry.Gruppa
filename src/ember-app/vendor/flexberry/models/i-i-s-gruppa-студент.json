@@ -1,0 +1,33 @@
+﻿{
+  "name": "IISGruppaСтудент",
+  "modelName": "i-i-s-gruppa-студент",
+  "className": "Студент",
+  "nameSpace": "IIS.Gruppa",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "фИО",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "группа",
+      "relatedTo": "i-i-s-gruppa-группа",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [],
+  "stored": true,
+  "offline": true,
+  "external": false
+}
