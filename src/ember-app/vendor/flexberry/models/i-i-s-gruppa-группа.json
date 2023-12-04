@@ -18,7 +18,36 @@
   ],
   "belongsTo": [],
   "hasMany": [],
-  "projections": [],
+  "projections": [
+    {
+      "name": "ГруппаE",
+      "modelName": "i-i-s-gruppa-группа",
+      "attrs": [
+        {
+          "name": "наименование",
+          "caption": "Наименование",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "ГруппаL",
+      "modelName": "i-i-s-gruppa-группа",
+      "attrs": [
+        {
+          "name": "наименование",
+          "caption": "Наименование",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
   "stored": true,
   "offline": true,
   "external": false

@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Группа",
+      "projection": "ГруппаL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Студент",
+  "name": "IISGruppaСтудентE",
+  "className": "СтудентE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-gruppa-студент",
+      "modelProjection": "СтудентE"
+    }
+  ]
+}

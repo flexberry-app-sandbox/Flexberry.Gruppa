@@ -1,6 +1,11 @@
 import $ from 'jquery';
 import EmberFlexberryTranslations from 'ember-flexberry/locales/ru/translations';
 
+import IISGruppaГруппаLForm from './forms/i-i-s-gruppa-группа-l';
+import IISGruppaСтудентLForm from './forms/i-i-s-gruppa-студент-l';
+import IISGruppaГруппаEForm from './forms/i-i-s-gruppa-группа-e';
+import IISGruppaСтудентEForm from './forms/i-i-s-gruppa-студент-e';
+import IISGruppaФормаForm from './forms/i-i-s-gruppa-форма';
 import IISGruppaГруппаModel from './models/i-i-s-gruppa-группа';
 import IISGruppaСтудентModel from './models/i-i-s-gruppa-студент';
 
@@ -13,7 +18,7 @@ $.extend(true, translations, {
     'i-i-s-gruppa-студент': IISGruppaСтудентModel
   },
 
-  'application-name': '',
+  'application-name': 'Gruppa',
 
   forms: {
     loading: {
@@ -52,7 +57,7 @@ $.extend(true, translations, {
       },
 
       footer: {
-        'application-name': '',
+        'application-name': 'Gruppa',
         'application-version': {
           caption: 'Версия аддона {{version}}',
           title: 'Это версия аддона ember-flexberry, которая сейчас используется в этом тестовом приложении ' +
@@ -63,8 +68,8 @@ $.extend(true, translations, {
 
       sitemap: {
         'application-name': {
-          caption: '',
-          title: ''
+          caption: 'Gruppa',
+          title: 'Gruppa'
         },
         'application-version': {
           caption: 'Версия аддона {{version}}',
@@ -76,7 +81,18 @@ $.extend(true, translations, {
           caption: 'Главная',
           title: ''
         },
-
+        gruppa: {
+          caption: 'Gruppa',
+          title: 'Gruppa',
+          'i-i-s-gruppa-группа-l': {
+            caption: 'Группа',
+            title: ''
+          },
+          'i-i-s-gruppa-студент-l': {
+            caption: 'Студент',
+            title: ''
+          }
+        }
       }
     },
 
@@ -88,7 +104,11 @@ $.extend(true, translations, {
       'delete-success-message': 'Объект удален',
       'delete-error-message-caption': 'Ошибка удаления'
     },
-
+    'i-i-s-gruppa-группа-l': IISGruppaГруппаLForm,
+    'i-i-s-gruppa-студент-l': IISGruppaСтудентLForm,
+    'i-i-s-gruppa-группа-e': IISGruppaГруппаEForm,
+    'i-i-s-gruppa-студент-e': IISGruppaСтудентEForm,
+    'i-i-s-gruppa-форма': IISGruppaФормаForm
   },
 
 });

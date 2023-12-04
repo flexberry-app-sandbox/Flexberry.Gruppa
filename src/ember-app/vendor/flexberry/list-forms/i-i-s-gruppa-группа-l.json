@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-gruppa-группа-e",
+  "editForm": "i-i-s-gruppa-группа-e",
+  "external": false,
+  "caption": "Группа",
+  "name": "IISGruppaГруппаL",
+  "className": "ГруппаL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-gruppa-группа",
+      "modelProjection": "ГруппаL"
+    }
+  ]
+}

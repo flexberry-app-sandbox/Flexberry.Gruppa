@@ -28,6 +28,10 @@ namespace IIS.Gruppa
     // *** End programmer edit section *** (Группа CustomAttributes)
     [AutoAltered()]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
+    [View("ГруппаE", new string[] {
+            "Наименование as \'Наименование\'"})]
+    [View("ГруппаL", new string[] {
+            "Наименование as \'Наименование\'"})]
     public class Группа : ICSSoft.STORMNET.DataObject
     {
         
@@ -67,6 +71,35 @@ namespace IIS.Gruppa
                 // *** Start programmer edit section *** (Группа.Наименование Set end)
 
                 // *** End programmer edit section *** (Группа.Наименование Set end)
+            }
+        }
+        
+        /// <summary>
+        /// Class views container.
+        /// </summary>
+        public class Views
+        {
+            
+            /// <summary>
+            /// "ГруппаE" view.
+            /// </summary>
+            public static ICSSoft.STORMNET.View ГруппаE
+            {
+                get
+                {
+                    return ICSSoft.STORMNET.Information.GetView("ГруппаE", typeof(IIS.Gruppa.Группа));
+                }
+            }
+            
+            /// <summary>
+            /// "ГруппаL" view.
+            /// </summary>
+            public static ICSSoft.STORMNET.View ГруппаL
+            {
+                get
+                {
+                    return ICSSoft.STORMNET.Information.GetView("ГруппаL", typeof(IIS.Gruppa.Группа));
+                }
             }
         }
     }

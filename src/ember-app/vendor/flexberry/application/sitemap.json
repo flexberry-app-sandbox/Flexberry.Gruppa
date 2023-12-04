@@ -1,6 +1,29 @@
 ﻿{
-  "applicationCaption": null,
-  "applicationTitle": null,
-  "items": [],
+  "applicationCaption": "Gruppa",
+  "applicationTitle": "Gruppa",
+  "items": [
+    {
+      "link": null,
+      "menuName": "gruppa",
+      "caption": "Gruppa",
+      "title": "Gruppa",
+      "children": [
+        {
+          "link": "i-i-s-gruppa-группа-l",
+          "menuName": null,
+          "caption": "Группа",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-gruppa-студент-l",
+          "menuName": null,
+          "caption": "Студент",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
   "mobile": true
 }

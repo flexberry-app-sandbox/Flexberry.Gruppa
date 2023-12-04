@@ -28,6 +28,14 @@ namespace IIS.Gruppa
     // *** End programmer edit section *** (Студент CustomAttributes)
     [AutoAltered()]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
+    [View("СтудентE", new string[] {
+            "ФИО as \'ФИО\'",
+            "Группа as \'Группа\'",
+            "Группа.Наименование as \'Наименование\'"})]
+    [MasterViewDefineAttribute("СтудентE", "Группа", ICSSoft.STORMNET.LookupTypeEnum.Combo, "", "Наименование")]
+    [View("СтудентL", new string[] {
+            "ФИО as \'ФИО\'",
+            "Группа.Наименование as \'Наименование\'"})]
     public class Студент : ICSSoft.STORMNET.DataObject
     {
         
@@ -103,6 +111,35 @@ namespace IIS.Gruppa
                 // *** Start programmer edit section *** (Студент.Группа Set end)
 
                 // *** End programmer edit section *** (Студент.Группа Set end)
+            }
+        }
+        
+        /// <summary>
+        /// Class views container.
+        /// </summary>
+        public class Views
+        {
+            
+            /// <summary>
+            /// "СтудентE" view.
+            /// </summary>
+            public static ICSSoft.STORMNET.View СтудентE
+            {
+                get
+                {
+                    return ICSSoft.STORMNET.Information.GetView("СтудентE", typeof(IIS.Gruppa.Студент));
+                }
+            }
+            
+            /// <summary>
+            /// "СтудентL" view.
+            /// </summary>
+            public static ICSSoft.STORMNET.View СтудентL
+            {
+                get
+                {
+                    return ICSSoft.STORMNET.Information.GetView("СтудентL", typeof(IIS.Gruppa.Студент));
+                }
             }
         }
     }

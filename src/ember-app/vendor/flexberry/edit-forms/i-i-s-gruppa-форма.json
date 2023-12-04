@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "",
+  "name": "IISGruppaФорма",
+  "className": "Форма",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-gruppa-группа",
+      "modelProjection": "ГруппаE"
+    }
+  ]
+}
